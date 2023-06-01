@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Pelo Mundo</title>
+
+    <style>
+        /* Corpo do texto */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, DeepSkyBlue, SpringGreen);
+        }
+
+        /* Tabela principal */
+        table {
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Links para outras Páginas*/
+        .a {
+            font-size: 25px;
+            font-family: Comic Sans MS, Comic Sans, cursive;
+            color: white;
+            text-decoration: none;
+            text-shadow: 2px 2px 5px grey;
+            padding: 25px;
+        }
+
+        /* Botões */
+        button {
+            background-color: transparent;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        /* Efeitos dos botões */
+        button:hover {
+            background-color: springgreen;
+            color: white;
+            transition: 0.8s;
+            transform: scale(1.085);
+        }
+
+        /* Menu */
+        .menu {
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 6px;
+            padding: 8px;
+            width: 100%;
+        }
+
+        /* Conteudo */
+        .museu{
+            padding-right: 300px;
+        }
+
+        /* Textos (p)*/
+        .primeiro {
+            font-size: 20px;
+            font-family: Comic Sans MS, Comic Sans, cursive;
+            color: white;
+            padding-left: 20px;
+            text-align: justify;
+            text-shadow: 2px 2px 5px DimGray;
+        }
+
+
+        /* Imagens */
+        img {
+            border-radius: 8px;
+        }
+
+        /* Rodapé*/
+        small {
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            text-shadow: 2px 2px 5px DimGray;
+        }
+
+        .termos {
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <!-- Título Principal -->
+        <tr>
+            <th colspan="2" style="padding-bottom: 7px;">
+                <img src="/Dia do museu.png" width="300px">
+            </th>
+        </tr>
+
+        <!-- Menu -->
+        <tr align="center">
+            <td colspan="2">
+                <div class="menu">
+                    <!-- Site Dia do Museu-->
+                    <button><a href="index.html" class="a">Dia do museu</a></button>
+
+                    <!-- Site "O que é um museu?"-->
+                    <button><a href="/oqueeummuseu.html" class="a">O que é um museu?</a></button>
+
+
+                    <!-- Imagens dos museus -->
+                    <button><a href="museuspelomundo.html" class="a">Museus pelo mundo</a></button>
+                </div>
+            </td>
+        </tr>
+
+        <!--                            Conteúdo da página                            -->
+        <!-- Museu 1 -->
+        <tr class="museu">
+                <td width="50%" align="right">
+                    <!-- Imagem 1º Museu -->
+                    <br><img src="/Museu_Britanico.jfif" width="500px" class="imagem1">
+                </td>
+                <td width="50%" class="museu">
+                    <!-- Texto 1º Museu -->
+                    <p class="primeiro">
+                        Museu Britânico - Londres, Reino Unido: Com uma vasta coleção de arte e antiguidades de todas as
+                        partes do mundo, destaca-se por abrigar a Pedra de Roseta e a coleção do Antigo Egito.
+                    </p>
+                </td>
+        </tr>
+
+        <!-- Museu 2-->
+        <tr>
+            <td width="50%" align="right">
+                <!-- Imagem 2º Museu -->
+                <br><img src="/museu_Principal.jfif" width="500px" class="imagem1">
+            </td>
+            <td width="50%" class="museu">
+                <!-- Texto 2º Museu -->
+                <p class="primeiro">
+                    Museu do Louvre - Paris, França: Considerado um dos maiores museus de arte do mundo, abriga
+                    obras-primas como a Mona Lisa e a Vênus de Milo.
+                </p>
+            </td>
+        </tr>
+
+        <!-- Museu 3-->
+        <tr>
+            <td width="50%" align="right">
+                <!-- Imagem 3º Museu -->
+                <br><img src="/Museu_Hermitage.jfif" width="500px" class="imagem1">
+            </td>
+            <td width="50%" class="museu">
+                <!-- Texto 3º Museu -->
+                <p class="primeiro">
+                    Museu Hermitage - São Petersburgo, Rússia: É um dos maiores e mais antigos museus do mundo, com uma extensa coleção que abrange desde antiguidades clássicas até arte moderna.
+                </p>
+            </td>
+        </tr>
+
+        <!-- Museu 4 -->
+        <tr>
+            <td width="50%" align="right">
+                <!-- Imagem 4º Museu -->
+                <br><img src="/Museu de Arte Moderna.jfif" width="500px" class="imagem1">
+            </td>
+            <td width="50%" class="museu">
+                <!-- Texto 4º Museu -->
+                <p class="primeiro">
+                    Museu de Arte Moderna (MAM) - Rio de Janeiro, Brasil: Importante museu de arte moderna e contemporânea da América Latina, abriga obras de artistas brasileiros e internacionais.
+                </p>
+            </td>
+        </tr>
+
+        <!-- Rodapé do site -->
+        <tr align="center">
+            <td colspan="2">
+                <hr>
+                <small> <a href="termos.html" class="termos">©Copyright 2023</a> by Gabriel G. Damascena. Todos os
+                    direitos
+                    reservados.</small>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
